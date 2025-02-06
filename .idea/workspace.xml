@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e79f1d83-27d2-4911-b7cf-e3e5a439588f" name="Changes" comment="first java task">
+    <list default="true" id="e79f1d83-27d2-4911-b7cf-e3e5a439588f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/homework4/Homework4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework2/FirstProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -44,14 +51,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.FirstProgram.executor": "Run",
+    "Application.Homework4.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "first-java-task",
+    "git-widget-placeholder": "homework__4",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/valentynayakubenko/IdeaProjects/hillel_java_project"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Homework4">
     <configuration name="FirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework2.FirstProgram" />
       <module name="New Project" />
@@ -65,8 +73,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Homework4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework4.Homework4" />
+      <module name="New Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Homework4" />
         <item itemvalue="Application.FirstProgram" />
       </list>
     </recent_temporary>
@@ -106,6 +128,17 @@
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
