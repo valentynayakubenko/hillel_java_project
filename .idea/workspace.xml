@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e79f1d83-27d2-4911-b7cf-e3e5a439588f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/homework4/Homework4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e79f1d83-27d2-4911-b7cf-e3e5a439588f" name="Changes" comment="adjusted into separate methods">
+      <change afterPath="$PROJECT_DIR$/src/homework5/Homework5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +51,15 @@
   "keyToString": {
     "Application.FirstProgram.executor": "Run",
     "Application.Homework4.executor": "Run",
+    "Application.Homework5.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "homework__4",
+    "git-widget-placeholder": "homework__5",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/valentynayakubenko/IdeaProjects/hillel_java_project"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Homework4">
+  <component name="RunManager" selected="Application.Homework5">
     <configuration name="FirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework2.FirstProgram" />
       <module name="New Project" />
@@ -86,8 +86,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Homework5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework5.Homework5" />
+      <module name="New Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Homework5" />
         <item itemvalue="Application.Homework4" />
         <item itemvalue="Application.FirstProgram" />
       </list>
@@ -126,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738495494249</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adjusted into separate methods">
+      <option name="closed" value="true" />
+      <created>1739029313453</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739029313453</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +166,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="adjusted git ignore file" />
     <MESSAGE value="first java task" />
-    <option name="LAST_COMMIT_MESSAGE" value="first java task" />
+    <MESSAGE value="adjusted into separate methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusted into separate methods" />
   </component>
 </project>
