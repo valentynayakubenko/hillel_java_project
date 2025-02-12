@@ -7,24 +7,34 @@ public class Homework5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Введіть назву задачі (checkAge, isPerfectSquare, calculateSumUpToN, isStudentEvaluation, isPrime):");
-        String task = scanner.nextLine();
+        System.out.println("Введіть номер задачі від 1 до 5:");
+        int task = Integer.parseInt(scanner.nextLine());
 
         switch (task) {
-            case "checkAge":
-                testCheckAge();
+            case 1:
+                System.out.print("Введіть свій вік: ");
+                int age = scanner.nextInt();
+                System.out.println(checkAge(age));
                 break;
-            case "isPerfectSquare":
-                testIsPerfectSquare();
+            case 2:
+                System.out.print("Введіть число: ");
+                int number = scanner.nextInt();
+                System.out.println(isPerfectSquare(number));
                 break;
-            case "calculateSumUpToN":
-                testCalculateSumUpToN();
+            case 3:
+                System.out.print("Введіть число: ");
+                int n = scanner.nextInt();
+                System.out.println(calculateSumUpToN(n));
                 break;
-            case "isStudentEvaluation":
-                testIsStudentEvaluation();
+            case 4:
+                System.out.print("Введіть оцінку: ");
+                int mark = scanner.nextInt();
+                System.out.println(studentEvaluation(mark));
                 break;
-            case "isPrime":
-                testIsPrime();
+            case 5:
+                System.out.print("Введіть просте число: ");
+                int prime = scanner.nextInt();
+                System.out.println(isPrime(prime));
                 break;
             default:
                 System.out.println("Такої задачі не існує!");
@@ -42,40 +52,22 @@ public class Homework5 {
         }
     }
 
-    static void testCheckAge() {
-        System.out.println(checkAge(18));
-        System.out.println(checkAge(0));
-        System.out.println(checkAge(99));
-    }
-
     //ДЗ 5.2. Квадрат числа
     static boolean isPerfectSquare(int number) {
         int sqrt = (int) Math.sqrt(number);
         return sqrt * sqrt == number;
     }
 
-    static void testIsPerfectSquare() {
-        System.out.println(isPerfectSquare(25));
-        System.out.println(isPerfectSquare(10));
-        System.out.println(isPerfectSquare(9));
-    }
-
     //ДЗ 5.3. Числовий ряд
-    static String calculateSumUpToN(int N) {
-        if (N < 1) {
+    static String calculateSumUpToN(int n) {
+        if (n < 1) {
             return "Хибні вхідні параметри";
         }
         int sum = 0;
-        for (int i = 1; i <= N; i++) {
+        for (int i = 1; i <= n; i++) {
             sum += i;
         }
-        return "Сума чисел від 1 до " + N + " дорівнює " + sum;
-    }
-
-    static void testCalculateSumUpToN() {
-        System.out.println(calculateSumUpToN(1));
-        System.out.println(calculateSumUpToN(3));
-        System.out.println(calculateSumUpToN(0));
+        return "Сума чисел від 1 до " + n + " дорівнює " + sum;
     }
 
     // ДЗ 5.4. Оцінка студента
@@ -96,29 +88,17 @@ public class Homework5 {
         }
     }
 
-    static void testIsStudentEvaluation() {
-        System.out.println(studentEvaluation(5));
-        System.out.println(studentEvaluation(1));
-        System.out.println(studentEvaluation(-3));
-    }
-
     //ДЗ 5.5. Просте число
-    static boolean isPrime(int N) {
-        if (N < 2) {
+    static boolean isPrime(int n) {
+        if (n < 2) {
             return false;
         }
-        for (int i = 2; i <= Math.sqrt(N); i++) {
-            if (N % i == 0) {
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) {
                 return false;
             }
         }
         return true;
-    }
-
-    static void testIsPrime() {
-        System.out.println(isPrime(0));
-        System.out.println(isPrime(8));
-        System.out.println(isPrime(7));
     }
 
 }
