@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e79f1d83-27d2-4911-b7cf-e3e5a439588f" name="Changes" comment="add homework 5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework5/Homework5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework5/Homework5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework5/BonusTasks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="homework_5" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -48,20 +50,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FirstProgram.executor": "Run",
-    "Application.Homework4.executor": "Run",
-    "Application.Homework5.executor": "Run",
-    "Application.Lesson5.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "homework__5",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/valentynayakubenko/IdeaProjects/hillel_java_project"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FirstProgram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Homework4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Homework5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;homework__5&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/valentynayakubenko/IdeaProjects/hillel_java_project&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Homework5">
+}</component>
+  <component name="RunManager" selected="Application.BonusTasks">
+    <configuration name="BonusTasks" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework5.BonusTasks" />
+      <module name="New Project" />
+      <option name="PROGRAM_PARAMETERS" value="5 0 -7 5 1 7 -1 3 6 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework2.FirstProgram" />
       <module name="New Project" />
@@ -117,6 +133,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BonusTasks" />
       <item itemvalue="Application.FirstProgram" />
       <item itemvalue="Application.Homework4" />
       <item itemvalue="Application.Homework5" />
@@ -128,6 +145,7 @@
         <item itemvalue="Application.Lesson5" />
         <item itemvalue="Application.Homework4" />
         <item itemvalue="Application.FirstProgram" />
+        <item itemvalue="Application.Homework5" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739029313453</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adjust Homework5">
+      <option name="closed" value="true" />
+      <created>1739373239413</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739373239413</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +217,7 @@
     <MESSAGE value="adjusted git ignore file" />
     <MESSAGE value="first java task" />
     <MESSAGE value="adjusted into separate methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjusted into separate methods" />
+    <MESSAGE value="adjust Homework5" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjust Homework5" />
   </component>
 </project>
