@@ -68,6 +68,13 @@ public class Homework7 {
             result.append(line1.charAt(i)).append(line2.charAt(i));
         }
 
+        if (line1.length() > length) {
+            result.append(line1.substring(length));
+        }
+        if (line2.length() > length) {
+            result.append(line2.substring(length));
+        }
+
         return result.toString();
     }
 
@@ -102,8 +109,7 @@ public class Homework7 {
     //ДЗ 7.5.
     public static boolean containsXYZ(String line) {
         for (int i = 0; i <= line.length() - 3; i++) {
-            if (line.startsWith("xyz", i))
-                if (i == 0 || line.charAt(i - 1) != '.') {
+            if (line.startsWith("xyz", i) && (i == 0 || line.charAt(i - 1) != '.')) {
                     return true;
                 }
         }
