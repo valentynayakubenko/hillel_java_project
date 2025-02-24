@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e79f1d83-27d2-4911-b7cf-e3e5a439588f" name="Changes" comment="added Homework7">
-      <change afterPath="$PROJECT_DIR$/src/homework8/Task10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework7/Homework7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework7/Homework7.java" afterDir="false" />
-    </list>
+    <list default="true" id="e79f1d83-27d2-4911-b7cf-e3e5a439588f" name="Changes" comment="added Homework7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,31 +48,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BonusTasks.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstProgram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Homework4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Homework5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Homework6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Homework7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lesson5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task9.executor&quot;: &quot;Run&quot;,
-    &quot;Application.homework6.BonusTasks.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;homework__8&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/valentynayakubenko/IdeaProjects/hillel_java_project&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BonusTasks.executor": "Run",
+    "Application.FirstProgram.executor": "Run",
+    "Application.Homework4.executor": "Run",
+    "Application.Homework5.executor": "Run",
+    "Application.Homework6.executor": "Run",
+    "Application.Homework7.executor": "Run",
+    "Application.Lesson5.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Task1.executor": "Run",
+    "Application.Task2.executor": "Run",
+    "Application.Task3.executor": "Run",
+    "Application.Task4.executor": "Run",
+    "Application.Task5.executor": "Run",
+    "Application.Task6.executor": "Run",
+    "Application.Task7.executor": "Run",
+    "Application.Task9.executor": "Run",
+    "Application.homework6.BonusTasks.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/valentynayakubenko/IdeaProjects/hillel_java_project"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Task10">
     <configuration name="BonusTasks" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework5.BonusTasks" />
@@ -188,7 +184,7 @@
       <item itemvalue="Application.homework6.BonusTasks" />
       <item itemvalue="Application.Homework6" />
       <item itemvalue="Application.BonusTasks" />
-      <item itemvalue="Application.Homework7" />
+      <item itemvalue="Application.Task10" />
       <item itemvalue="Application.Task5" />
       <item itemvalue="Application.Task6" />
       <item itemvalue="Application.Task7" />
@@ -196,7 +192,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Homework7" />
         <item itemvalue="Application.Task9" />
         <item itemvalue="Application.Task7" />
         <item itemvalue="Application.Task6" />
@@ -277,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740163761534</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added Homework7">
+      <option name="closed" value="true" />
+      <created>1740416655510</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740416655510</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,6 +301,7 @@
     <MESSAGE value="adjusted into separate methods" />
     <MESSAGE value="adjust Homework5" />
     <MESSAGE value="added Homework6" />
+    <MESSAGE value="added new task" />
     <MESSAGE value="added Homework7" />
     <option name="LAST_COMMIT_MESSAGE" value="added Homework7" />
   </component>
