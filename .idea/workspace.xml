@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e79f1d83-27d2-4911-b7cf-e3e5a439588f" name="Changes" comment="added Homework7">
+      <change afterPath="$PROJECT_DIR$/src/homework8/Task10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homework7/Homework7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework7/Homework7.java" afterDir="false" />
     </list>
@@ -51,32 +52,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BonusTasks.executor": "Run",
-    "Application.FirstProgram.executor": "Run",
-    "Application.Homework4.executor": "Run",
-    "Application.Homework5.executor": "Run",
-    "Application.Homework6.executor": "Run",
-    "Application.Homework7.executor": "Run",
-    "Application.Lesson5.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Task1.executor": "Run",
-    "Application.Task2.executor": "Run",
-    "Application.Task3.executor": "Run",
-    "Application.Task4.executor": "Run",
-    "Application.Task5.executor": "Run",
-    "Application.Task6.executor": "Run",
-    "Application.Task7.executor": "Run",
-    "Application.Task9.executor": "Run",
-    "Application.homework6.BonusTasks.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "homework7",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/valentynayakubenko/IdeaProjects/hillel_java_project"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BonusTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstProgram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Homework4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Homework5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Homework6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Homework7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Lesson5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.homework6.BonusTasks.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;homework__8&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/valentynayakubenko/IdeaProjects/hillel_java_project&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Homework7">
+}</component>
+  <component name="RunManager" selected="Application.Task10">
     <configuration name="BonusTasks" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework5.BonusTasks" />
       <module name="New Project" />
@@ -104,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Homework7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework7.Homework7" />
+    <configuration name="Task10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework8.Task10" />
       <module name="New Project" />
       <extension name="coverage">
         <pattern>
