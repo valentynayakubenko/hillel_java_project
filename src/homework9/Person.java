@@ -36,17 +36,4 @@ public class Person {
         this.profession = profession;
     }
 
-    static Person person1 = new Person("John", 30, "Doctor");
-    static Person person2 = new Person("Jane", 25, "Teacher");
-    static Person person3 = new Person("Jack", 40, "Engineer");
-
-    public static void main(String[] args) {
-        System.out.println("Name: " + person1.getName() + ", Age: " + person1.getAge() + ", Profession: " + person1.getProfession());
-        System.out.println("Name: " + person2.getName() + ", Age: " + person2.getAge() + ", Profession: " + person2.getProfession());
-        System.out.println("Name: " + person3.getName() + ", Age: " + person3.getAge() + ", Profession: " + person3.getProfession());
-
-        person1.setProfession("Designer");
-        System.out.println("Name: " + person1.getName() + ", Age: " + person1.getAge() + ", Profession: " + person1.getProfession());
-    }
-
 }

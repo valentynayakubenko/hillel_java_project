@@ -30,4 +30,4 @@ bin/
 
 # Default ignored files
 /shelf/
-/workspace.xml
+.idea/workspace.xml
