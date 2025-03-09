@@ -1,12 +1,15 @@
 package homework9;
 
-public class Person {
+import homework10.Displayable;
+import homework10.Profession;
 
-    String name;
-    int age;
-    String profession;
+public class Person implements Displayable {
 
-    public Person(String name, int age, String profession) {
+    public String name;
+    public int age;
+    public Profession profession;
+
+    public Person(String name, int age, Profession profession) {
         this.name = name;
         this.age = age;
         this.profession = profession;
@@ -29,11 +32,14 @@ public class Person {
     }
 
     public String getProfession() {
-        return profession;
+        return profession.getValue();
     }
 
-    public void setProfession(String profession) {
+    public void setProfession(Profession profession) {
         this.profession = profession;
     }
 
+    public void displayInformation() {
+        System.out.println("Name: " + name + ", Age: " + age + ", Profession: " + profession.getValue());
+    }
 }
