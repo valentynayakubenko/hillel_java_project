@@ -10,9 +10,10 @@ public class Main extends Person {
 
         public static void main(String[] args) {
 
-        Woman woman = new Woman("John", 30, Profession.DOCTOR);
-        Man man = new Man("Jim", 45, Profession.ENGINEER);
+        Woman woman = new Woman("John", 30, Profession.DOCTOR, false);
+        Man man = new Man("Jim", 45, Profession.ENGINEER, false);
 
+        man.setMarried(true);
         woman.displayInformation();
         man.displayInformation();
     }

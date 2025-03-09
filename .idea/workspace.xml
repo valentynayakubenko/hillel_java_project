@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e79f1d83-27d2-4911-b7cf-e3e5a439588f" name="Changes" comment="push main">
-      <change afterPath="$PROJECT_DIR$/src/homework10/Displayable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework10/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework10/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework10/Profession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework10/Woman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework10/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework10/Woman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework10/Woman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homework9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework9/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homework9/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework9/Person.java" afterDir="false" />
     </list>
@@ -29,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="homework7" />
+    <option name="BRANCH" value="homework_10" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -81,7 +78,7 @@
     "Application.homework10.Main.executor": "Run",
     "Application.homework6.BonusTasks.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "homework__10",
+    "git-widget-placeholder": "homework__11",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/valentynayakubenko/IdeaProjects/hillel_java_project"
   }
@@ -302,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740416778856</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added homework10">
+      <option name="closed" value="true" />
+      <created>1741536969258</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741536969258</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,6 +331,7 @@
     <MESSAGE value="added new task" />
     <MESSAGE value="added Homework7" />
     <MESSAGE value="push main" />
-    <option name="LAST_COMMIT_MESSAGE" value="push main" />
+    <MESSAGE value="added homework10" />
+    <option name="LAST_COMMIT_MESSAGE" value="added homework10" />
   </component>
 </project>

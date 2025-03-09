@@ -3,11 +3,11 @@ package homework9;
 import homework10.Displayable;
 import homework10.Profession;
 
-public class Person implements Displayable {
+public abstract class Person implements Displayable {
 
-    public String name;
-    public int age;
-    public Profession profession;
+    protected String name;
+    protected int age;
+    protected Profession profession;
 
     public Person(String name, int age, Profession profession) {
         this.name = name;
