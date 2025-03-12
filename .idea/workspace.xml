@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e79f1d83-27d2-4911-b7cf-e3e5a439588f" name="Changes" comment="push main">
+    <list default="true" id="e79f1d83-27d2-4911-b7cf-e3e5a439588f" name="Changes" comment="added homework11">
+      <change afterPath="$PROJECT_DIR$/src/additionalTask1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/additionalTask1/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/additionalTask2/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/additionalTask2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/additionalTask3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/additionalTask3/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/additionalTask4/Credit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/additionalTask4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework10/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework10/Woman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework10/Woman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework9/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework9/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework9/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +79,10 @@
     "Application.Task6.executor": "Run",
     "Application.Task7.executor": "Run",
     "Application.Task9.executor": "Run",
+    "Application.additionalTask1.Main.executor": "Run",
+    "Application.additionalTask2.Main.executor": "Run",
+    "Application.additionalTask3.Main.executor": "Run",
+    "Application.additionalTask4.Main.executor": "Run",
     "Application.homework10.Main.executor": "Run",
     "Application.homework6.BonusTasks.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -83,7 +91,7 @@
     "last_opened_file_path": "/Users/valentynayakubenko/IdeaProjects/hillel_java_project"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.homework10.Main">
+  <component name="RunManager" selected="Application.additionalTask4.Main">
     <configuration name="BonusTasks" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework5.BonusTasks" />
       <module name="New Project" />
@@ -111,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework9.Main" />
+    <configuration name="additionalTask1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="additionalTask1.Main" />
       <module name="New Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework9.*" />
+          <option name="PATTERN" value="additionalTask1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework8.Task6" />
+    <configuration name="additionalTask2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="additionalTask2.Main" />
       <module name="New Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework8.*" />
+          <option name="PATTERN" value="additionalTask2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework8.Task7" />
+    <configuration name="additionalTask3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="additionalTask3.Main" />
       <module name="New Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework8.*" />
+          <option name="PATTERN" value="additionalTask3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework8.Task9" />
+    <configuration name="additionalTask4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="additionalTask4.Main" />
       <module name="New Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework8.*" />
+          <option name="PATTERN" value="additionalTask4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,19 +202,19 @@
       <item itemvalue="Application.homework6.BonusTasks" />
       <item itemvalue="Application.Homework6" />
       <item itemvalue="Application.BonusTasks" />
+      <item itemvalue="Application.additionalTask4.Main" />
+      <item itemvalue="Application.additionalTask1.Main" />
+      <item itemvalue="Application.additionalTask2.Main" />
+      <item itemvalue="Application.additionalTask3.Main" />
       <item itemvalue="Application.homework10.Main" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Task6" />
-      <item itemvalue="Application.Task7" />
-      <item itemvalue="Application.Task9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.additionalTask4.Main" />
+        <item itemvalue="Application.additionalTask3.Main" />
+        <item itemvalue="Application.additionalTask2.Main" />
+        <item itemvalue="Application.additionalTask1.Main" />
         <item itemvalue="Application.homework10.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Task9" />
-        <item itemvalue="Application.Task7" />
-        <item itemvalue="Application.Task6" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741536969258</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added homework11">
+      <option name="closed" value="true" />
+      <created>1741539958036</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1741539958036</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,6 +348,7 @@
     <MESSAGE value="added Homework7" />
     <MESSAGE value="push main" />
     <MESSAGE value="added homework10" />
-    <option name="LAST_COMMIT_MESSAGE" value="added homework10" />
+    <MESSAGE value="added homework11" />
+    <option name="LAST_COMMIT_MESSAGE" value="added homework11" />
   </component>
 </project>
