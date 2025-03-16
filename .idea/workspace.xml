@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e79f1d83-27d2-4911-b7cf-e3e5a439588f" name="Changes" comment="added homework11">
-      <change afterPath="$PROJECT_DIR$/src/additionalTask1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additionalTask1/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additionalTask2/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additionalTask2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additionalTask3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additionalTask3/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additionalTask4/Credit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/additionalTask4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework12/Homework12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework12/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +58,7 @@
   "keyToString": {
     "Application.BonusTasks.executor": "Run",
     "Application.FirstProgram.executor": "Run",
+    "Application.Homework12.executor": "Run",
     "Application.Homework4.executor": "Run",
     "Application.Homework5.executor": "Run",
     "Application.Homework6.executor": "Run",
@@ -86,12 +81,12 @@
     "Application.homework10.Main.executor": "Run",
     "Application.homework6.BonusTasks.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "homework__11",
+    "git-widget-placeholder": "homework__12",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/valentynayakubenko/IdeaProjects/hillel_java_project"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.additionalTask4.Main">
+  <component name="RunManager" selected="Application.Homework12">
     <configuration name="BonusTasks" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework5.BonusTasks" />
       <module name="New Project" />
@@ -99,6 +94,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="homework5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Homework12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework12.Homework12" />
+      <module name="New Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,19 +179,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework10.Main" />
-      <module name="New Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="homework6.BonusTasks" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework6.BonusTasks" />
       <module name="New Project" />
@@ -202,19 +197,19 @@
       <item itemvalue="Application.homework6.BonusTasks" />
       <item itemvalue="Application.Homework6" />
       <item itemvalue="Application.BonusTasks" />
+      <item itemvalue="Application.Homework12" />
       <item itemvalue="Application.additionalTask4.Main" />
       <item itemvalue="Application.additionalTask1.Main" />
       <item itemvalue="Application.additionalTask2.Main" />
       <item itemvalue="Application.additionalTask3.Main" />
-      <item itemvalue="Application.homework10.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Homework12" />
         <item itemvalue="Application.additionalTask4.Main" />
         <item itemvalue="Application.additionalTask3.Main" />
         <item itemvalue="Application.additionalTask2.Main" />
         <item itemvalue="Application.additionalTask1.Main" />
-        <item itemvalue="Application.homework10.Main" />
       </list>
     </recent_temporary>
   </component>
