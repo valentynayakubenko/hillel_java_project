@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e79f1d83-27d2-4911-b7cf-e3e5a439588f" name="Changes" comment="added Homework12">
-      <change afterPath="$PROJECT_DIR$/src/homework13/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework13/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework13/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework13/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework13/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework13/Task6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework13/Task7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework13/Task8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e79f1d83-27d2-4911-b7cf-e3e5a439588f" name="Changes" comment="added Homework12" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +77,7 @@
     "Application.homework10.Main.executor": "Run",
     "Application.homework6.BonusTasks.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "homework__12",
+    "git-widget-placeholder": "adjust__project",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/valentynayakubenko/IdeaProjects/hillel_java_project"
   }
