@@ -1,12 +1,13 @@
 package homework10;
 
 import homework9.Person;
+import homework9.PersonException;
 
 public class Woman extends Person {
 
     private boolean hasChildren;
 
-    public Woman(String name, int age, Profession profession, boolean hasChildren) {
+    public Woman(String name, int age, Profession profession, boolean hasChildren) throws PersonException {
         super(name, age, profession);
         this.hasChildren = hasChildren;
     }

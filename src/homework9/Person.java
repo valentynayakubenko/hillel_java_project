@@ -9,8 +9,14 @@ public abstract class Person implements Displayable {
     protected int age;
     protected Profession profession;
 
-    public Person(String name, int age, Profession profession) {
+    public Person(String name, int age, Profession profession) throws PersonException {
+        if (name == null || name.isEmpty()) {
+            throw new PersonException("Name cannot be null or empty");
+        }
         this.name = name;
+        if (age <= 0) {
+            throw new PersonException("Age cannot be negative or 0");
+        }
         this.age = age;
         this.profession = profession;
     }
@@ -19,7 +25,10 @@ public abstract class Person implements Displayable {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String name) throws PersonException {
+        if (name == null || name.isEmpty()) {
+            throw new PersonException("Name cannot be null or empty");
+        }
         this.name = name;
     }
 
@@ -27,7 +36,10 @@ public abstract class Person implements Displayable {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(int age) throws PersonException {
+        if (age < 0) {
+            throw new PersonException("Age cannot be negative");
+        }
         this.age = age;
     }
 

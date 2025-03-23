@@ -4,6 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="e79f1d83-27d2-4911-b7cf-e3e5a439588f" name="Changes" comment="added Homework12">
+      <change afterPath="$PROJECT_DIR$/src/homework9/PersonException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework10/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework10/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework10/Man.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework10/Woman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework10/Woman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework9/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework9/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework9/Person.java" afterDir="false" />
+    </list>
     <list default="true" id="e79f1d83-27d2-4911-b7cf-e3e5a439588f" name="Changes" comment="added Homework12" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,12 +86,12 @@
     "Application.homework10.Main.executor": "Run",
     "Application.homework6.BonusTasks.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "adjust__project",
+    "git-widget-placeholder": "homework__14",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/valentynayakubenko/IdeaProjects/hillel_java_project"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Task1">
+  <component name="RunManager" selected="Application.homework10.Main">
     <configuration name="BonusTasks" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework5.BonusTasks" />
       <module name="hillel_java_project" />
@@ -110,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework13.Task1" />
-      <module name="hillel_java_project" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework9.Main" />
+      <module name="New Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework13.*" />
+          <option name="PATTERN" value="homework9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,6 +215,8 @@
       <item itemvalue="Application.homework6.BonusTasks" />
       <item itemvalue="Application.Homework6" />
       <item itemvalue="Application.BonusTasks" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.homework10.Main" />
       <item itemvalue="Application.Task1" />
       <item itemvalue="Application.Task5" />
       <item itemvalue="Application.Task6" />
@@ -215,6 +226,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.homework10.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Task8" />
         <item itemvalue="Application.Task7" />
         <item itemvalue="Application.Task6" />
@@ -335,7 +348,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742115833625</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added adjust">
+      <option name="closed" value="true" />
+      <created>1742585377073</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1742585377073</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added adjust">
+      <option name="closed" value="true" />
+      <created>1742585436883</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1742585436883</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,6 +391,7 @@
     <MESSAGE value="added homework10" />
     <MESSAGE value="added homework11" />
     <MESSAGE value="added Homework12" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Homework12" />
+    <MESSAGE value="added adjust" />
+    <option name="LAST_COMMIT_MESSAGE" value="added adjust" />
   </component>
 </project>
