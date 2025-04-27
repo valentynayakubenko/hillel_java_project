@@ -43,6 +43,9 @@ public class GaragePage {
     @FindBy(css = "img.car-logo_img")
     private WebElement carLogo;
 
+    @FindBy(css = "a.btn-sidebar[href='/panel/instructions']")
+    private WebElement instructionsLink;
+
     public GaragePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -95,6 +98,10 @@ public class GaragePage {
     public boolean isCurrentDateDisplayed() {
         String currentDate = LocalDate.now().format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
         return getCarUpdateMileage().contains(currentDate);
+    }
+
+    public void clickInstructions() {
+        instructionsLink.click();
     }
 
 }
