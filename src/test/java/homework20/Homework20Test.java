@@ -1,4 +1,4 @@
-package homework_20;
+package homework20;
 
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
