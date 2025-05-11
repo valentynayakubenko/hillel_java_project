@@ -59,6 +59,7 @@ public class GaragePage {
 
     public void selectBrand(String brand) {
         Select brandDropdown = new Select(brandSelect);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         brandDropdown.selectByVisibleText(brand);
     }
 
