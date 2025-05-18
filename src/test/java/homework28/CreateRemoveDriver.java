@@ -14,12 +14,12 @@ public class CreateRemoveDriver {
             if ("chrome".equalsIgnoreCase(browser)) {
                 ChromeOptions chromeOptions = new ChromeOptions();
                 chromeOptions.setCapability("browserVersion", "127.0");
-                return new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeOptions);
+                return new RemoteWebDriver(new URL("http://selenoid:4444/wd/hub"), chromeOptions);
 
             } else if ("firefox".equalsIgnoreCase(browser)) {
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
                 firefoxOptions.setCapability("browserVersion", "125.0");
-                return new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), firefoxOptions);
+                return new RemoteWebDriver(new URL("http://selenoid:4444/wd/hub"), firefoxOptions);
 
             } else {
                 throw new RuntimeException("Unsupported browser: " + browser);
