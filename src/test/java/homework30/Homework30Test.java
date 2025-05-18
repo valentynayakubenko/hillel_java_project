@@ -5,6 +5,9 @@ import io.restassured.response.Response;
 import org.assertj.core.api.SoftAssertions;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertAll;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class Homework30Test {
 
     @Test
@@ -15,18 +18,11 @@ public class Homework30Test {
                 .get("https://qauto.forstudy.space/api/auth/logout");
 
         int statusCode = response.getStatusCode();
-        String status = response.jsonPath().getString("status");
+        String responseBody = response.getBody().asString();
 
-        SoftAssertions softly = new SoftAssertions();
-
-        softly.assertThat(statusCode)
-                .as("Статус-код повинен бути 200")
-                .isEqualTo(200);
-
-        softly.assertThat(status)
-                .as("Поле 'status' повинно дорівнювати 'ok'")
-                .isEqualTo("ok");
-
-        softly.assertAll();
+        assertAll("logout response",
+                () -> assertEquals(200, statusCode, "Response code should be 200"),
+                () -> assertEquals("{\"status\":\"ok\"}", responseBody, "Body response should be {\"status\":\"ok\"}")
+        );
     }
 }
